@@ -1,0 +1,61 @@
+/*
+     How would you write a selector to select the following?
+            1. All elements with class "select-me"
+            2. Only div elements with class "select-me"
+            3. Only the div element with the class "highlight"
+            4. All elements with the class "select-me" AND the class "highlight"
+            5. All list items under "special-list"
+            6. Only the list item under "special-list" with the class "select-me"
+            7. Only the span with class "select-me" under the list item with
+              class "highlight" under the "special-list"
+*/
+
+body {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+}
+
+/* 1 */
+.select-me {
+  background-color: green;
+  color: white;
+}
+
+/* 2 */
+div.select-me {
+  background-color: blue;
+  color: white;
+}
+
+/* 3 */
+div.highlight {
+  background-color: red;
+  color: white;
+}
+
+/* 4 */
+.select-me.highlight {
+  background-color: gold;
+  color: black;
+}
+
+/* 5 */
+#special-list li {
+  background-color: magenta;
+  color: black;
+}
+
+/* 6 */
+#special-list .select-me {
+  background-color: cyan;
+  color: black;
+}
+
+/* 7 */
+
+#special-list li.highlight span.select-me {
+  background-color: orange;
+  color: black;
+}

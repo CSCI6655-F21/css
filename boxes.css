@@ -1,0 +1,35 @@
+body,
+html {
+  font-size: x-large;
+}
+
+#special-p {
+  width: 128px;
+  height: 256px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.outer-box {
+  /* padding: 16px; */
+  /* padding: 16px 64px; */
+  padding: 16px 64px 32px 0;
+  border: 3px solid red;
+  /* border-radius: 50%; */
+  border-radius: 10px;
+  margin: 16px;
+}
+
+#first-box {
+  padding-left: 64px;
+  /* padding-top: 64px;
+  padding-bottom: 64px;
+  padding-right: 64px; */
+}
+
+.inner-box {
+  border: 3px dashed blue;
+  padding: 8px;
+  display: inline-block;
+  background-color: rgb(255, 255, 0);
+}
